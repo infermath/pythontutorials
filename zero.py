@@ -1,5 +1,4 @@
 import math as m
-import matplotlib.pyplot as plt
 
 class Zero:
     def __init__(self, maturity):
@@ -10,5 +9,3 @@ class Zero:
 
     def Price(self, ytm):
         return 100/m.pow(1+ytm,self.maturity)
-
-        
